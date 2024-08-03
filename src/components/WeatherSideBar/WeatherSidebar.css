@@ -1,0 +1,8 @@
+.weather-sidebar {
+    padding: 30px 0;
+}
+
+.weather-sidebar__details {
+    font-size: 18px;
+    margin: 30px 0;
+}
