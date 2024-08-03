@@ -1,0 +1,27 @@
+.weather__current {
+    display: flex;
+    color: white;
+}
+
+.weather__temperature {
+    font-size: 143px;
+    padding-right: 20px;
+}
+
+.weather__details {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.weather__city {
+    font-size: 60px;
+}
+
+.weather__time {
+}
+
+.weather__date {
+}

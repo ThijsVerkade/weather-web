@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  font-family: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-image: url('./assets/bg-weather.png');
+  background-size: cover; /* Optional: to cover the entire viewport */
+  background-position: center; /* Optional: to center the image */
+  background-repeat: no-repeat; /* Optional: to prevent repeating */
+  color: rgba(255, 255, 255, 0.87);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-end; /* Align items to the bottom */
+  height: 100vh; /* Full viewport height for demonstration */
+}
+
+.block__weather__current {
+  margin: 10px; /* Optional: adds some margin from the edges */
+  padding: 10px; /* Optional: for styling */
 }
